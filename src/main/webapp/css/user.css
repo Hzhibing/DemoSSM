@@ -1,0 +1,75 @@
+.bar{
+	height:50px;
+	background: #0077AA;
+	margin-right: 10px;
+	color: #FFFDEF;
+	line-height: 50px;
+	padding-left: 20px;
+	font-size: 15px;
+}
+.container-fluid{
+	margin-top: 0;
+}
+input,
+ input:focus{
+	border: 1px #CCCCCC solid !important;
+	box-shadow: none  !important;	
+   outline: none  !important;
+ 
+}
+ 
+/*去掉所有按钮的一些样式*/
+.btn.active:focus,
+.btn:focus,
+.btn.focus,
+.btn:active:focus,
+.btn:active.focus,
+.btn.active.focus{
+	outline:none !important;
+	box-shadow: none !important;
+	background: #337ab7;
+	border-color: #2e6da4;
+}
+.form-inline{
+	margin-top: 10px;
+}
+#search_btn{
+	padding-right: 20px;
+	margin-top: 10px;
+}
+#search_btn > button{
+	height: 30px;
+	width: 60px;
+	line-height: 16px;
+	background:white;
+	margin-right: 6px;
+}
+#content-table{
+	margin-top: 15px;
+	margin-right: 10px;
+}
+#content-table > table tr:first-child{
+	background: #0077AA;
+	color: white;
+	font-size:16px;
+}
+#content-table > table >tbody > tr  >td:first-child{
+	width: 100px;
+}
+.btngroup{
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+.btngroup >button{
+	height: 30px;
+	width: 70px;
+	background:white !important;
+	margin-right: 6px;
+	line-height: 15px;
+}
+#page > p{
+	font-size: 16px;
+}
+#page > p >span{
+	color: #0077AA;
+}

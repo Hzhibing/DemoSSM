@@ -1,0 +1,118 @@
+#admin-top{
+	z-index: 1;
+}
+.navbar-brand{
+	color: #EEEEEE !important;
+	position: relative;
+	padding-left: 35px;
+}
+.navbar-brand > i{
+	position: absolute;
+	font-size: 30px;
+	left:0px;
+	top:25px;
+}
+.navbar-inverse > div.col-md-offset-8 > a > i{
+	font-size: 30px;
+}
+.navbar-inverse > div.col-md-offset-8 > a:hover{
+	text-decoration: none !important;
+}
+.navbar-inverse > div.col-md-offset-8 > a{
+	line-height: 70px;
+	color: white;
+	text-decoration: none !important;
+}
+.icon_i{
+	font-size: 20px;
+	line-height: 70px;
+	color: white;
+}
+.slid_bar{
+	float: left;
+	margin-top: -20px;
+	width: 220px;
+	background: #f0f0f0;
+	height: 500px;
+	z-index: 1;
+}
+.slid_bar > div.slid_bar_title{
+	padding-left: 10px;
+	width: 220px;
+	height: 55px;
+	position: relative;
+	z-index: 1;
+	background: #f0f0f0;
+}
+.slid_bar > div.slid_bar_title>p{
+	width: 190px;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+	border-bottom: #E0E0E0 2px solid;
+	/*line-height: 55px;*/
+}
+.slid_bar_title > p > span:first-child{
+	font-size: 16px;
+}
+.slid_bar_title > p > span:last-child{
+	font-size: 12px;
+}
+.slid_bar_content{
+	width: 220px;
+	height:100% ;
+	background:#F0F0F0;
+	z-index: 0;
+	padding-top:135px ;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.slid_bar_content > a > i{
+	font-size: 20px;
+	margin-right: 10px;
+	color: #0077AA;
+}
+.slid_bar_content > a{
+	padding-left: 10px;
+	text-decoration: none;
+	color:#333333;
+	display: block;//默认为内联级显示,此处设为区块级显示,
+	height: 30px;
+	line-height: 30px;
+}
+.slid_bar_content > ul > li{
+	list-style: none;
+	margin-top: 5px;
+}
+.slid_bar_content > ul > li > a{
+	text-decoration: none;
+	color: #333333;
+}
+.slid_bar_content > ul > li > a > i{
+	
+    color: #0077AA;
+}
+.slid_bar_content > ul > li > a:hover{
+	 color: #0077AA;
+}
+.slid_bar_content > ul > li > a > i {
+	margin-right: 10px;
+}
+#path_nav > ol{
+	background: white;
+	border-bottom: #CCCCCC 1px solid;
+	margin-bottom: 0;
+}
+#path_nav{
+	margin-left: 230px;
+	padding-right: 10px;
+}
+#iframe_content{
+	padding-left: 230px;
+	padding-top: 150px;
+	z-index: -1;
+}
+.navactive{
+	font-weight: bold !important;
+    color: #0077AA !important;
+}

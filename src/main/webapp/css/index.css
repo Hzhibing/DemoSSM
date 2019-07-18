@@ -1,0 +1,113 @@
+.navbar-brand{
+	position: relative;
+	padding-left: 40px;
+    color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	
+}
+.navbar-brand > i{
+	position: absolute;
+	font-size: 35px;
+	color: #0077AA;
+	left: 0px;
+	
+}
+/*去掉输入框的一些样式*/
+.input-group > input,
+.input-group > input:focus{
+	border: 1px #CCCCCC solid;
+	box-shadow: none;	
+   outline: none;
+   border-right-color:#2e6da4 ;
+}
+.input-group > input{
+	border: 1px #CCCCCC solid;
+	box-shadow: none;	
+   outline: none;
+   border-right-color:#2e6da4 ;
+}
+/*去掉所有按钮的一些样式*/
+.btn.active:focus,
+.btn:focus,
+.btn.focus,
+.btn:active:focus,
+.btn:active.focus,
+.btn.active.focus{
+	outline:none;
+	box-shadow: none;
+	background: #337ab7;
+	border-color: #2e6da4;
+}
+.btn:hover{
+	background:#337ab7;
+	border-color:#2e6da4;
+}
+#collapsebar > ul > li > .home{
+	background: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+.carousel-inner > div.item{
+	height: 330px;
+	background-position: center center !important;/*设置轮播图在小屏幕下居中显示*/
+	background-size: cover !important;/*设置轮播图的大小，因为无法得知作为背景图的图片有多大*/
+}
+.page-header{
+	border-bottom: 2px #DDDDDD solid;
+}
+.page-header > h3{
+    position: relative;
+}
+.page-header > h3 > a{
+	position: absolute;
+	right: 0px;
+    font-size: 15px;
+	line-height:26.4px;
+}
+.page-header > h3 > a:hover{
+	text-decoration: none;
+}
+.thumbnail {
+	border:1px #FFFDEF solid;
+	padding: 10px;
+	border-radius: 0;
+}
+.thumbnail:hover {
+	border:1px #CCCCCC solid;
+	border-radius: 0;
+	box-shadow: .5px .5px 5px #ddd;
+	outline: 1px #CCCCCC solid;
+}
+.thumbnail >.caption > a > h3{
+	margin-top: 5px;
+    font-size: 16px;
+	
+}
+.thumbnail >.caption > a {
+	text-decoration: none;
+}
+.thumbnail >.caption > p >a{
+     position: absolute;
+	 right: 20px !important;
+	 text-decoration: none;
+}
+#course{
+	/*padding-right: 0;*/
+}
+.footer{
+	background:white;
+}
+.footer > .footericon{
+	text-align: center;
+
+}
+.footer > .footericon > i{
+	font-size: 50px;
+}
+.footer > p{
+	text-align: center;
+}
+.footer > .link >a{
+	text-decoration: none;
+}
